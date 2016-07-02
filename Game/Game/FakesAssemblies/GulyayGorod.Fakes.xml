@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GulyayGorod.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:SpecialUnits.Fakes.ShimGulyayGorod">
+            <summary>Shim type of SpecialUnits.GulyayGorod</summary>
+        </member>
+        <member name="M:SpecialUnits.Fakes.ShimGulyayGorod.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:SpecialUnits.Fakes.ShimGulyayGorod.#ctor(SpecialUnits.GulyayGorod)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:SpecialUnits.Fakes.ShimGulyayGorod.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:SpecialUnits.Fakes.ShimGulyayGorod.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AreDeathGet">
+            <summary>Sets the shim of GulyayGorod.get_AreDeath()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.ConstructorInt32Int32Int32">
+            <summary>Sets the shim of GulyayGorod.GulyayGorod(Int32 health, Int32 defence, Int32 cost)</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.GetCost">
+            <summary>Sets the shim of GulyayGorod.GetCost()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.GetDefence">
+            <summary>Sets the shim of GulyayGorod.GetDefence()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.GetHealth">
+            <summary>Sets the shim of GulyayGorod.GetHealth()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.GetStrength">
+            <summary>Sets the shim of GulyayGorod.GetStrength()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.TakeDamageInt32">
+            <summary>Sets the shim of GulyayGorod.TakeDamage(Int32 damage)</summary>
+        </member>
+        <member name="T:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances.AreDeathGet">
+            <summary>Sets the shim of GulyayGorod.get_AreDeath()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances.GetCost">
+            <summary>Sets the shim of GulyayGorod.GetCost()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances.GetDefence">
+            <summary>Sets the shim of GulyayGorod.GetDefence()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances.GetHealth">
+            <summary>Sets the shim of GulyayGorod.GetHealth()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances.GetStrength">
+            <summary>Sets the shim of GulyayGorod.GetStrength()</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.ShimGulyayGorod.AllInstances.TakeDamageInt32">
+            <summary>Sets the shim of GulyayGorod.TakeDamage(Int32 damage)</summary>
+        </member>
+        <member name="T:SpecialUnits.Fakes.StubGulyayGorod">
+            <summary>Stub type of SpecialUnits.GulyayGorod</summary>
+        </member>
+        <member name="M:SpecialUnits.Fakes.StubGulyayGorod.#ctor(System.Int32,System.Int32,System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SpecialUnits.Fakes.StubGulyayGorod.InitializeStub">
+            <summary>Initializes a new instance of type StubGulyayGorod</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.StubGulyayGorod.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.StubGulyayGorod.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:SpecialUnits.Fakes.StubGulyayGorod.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

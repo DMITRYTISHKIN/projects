@@ -1,0 +1,7 @@
+C:\map\TishkinProject\Game\Game\bin\Debug\Game.exe.config
+C:\map\TishkinProject\Game\Game\obj\Debug\Game.csprojResolveAssemblyReference.cache
+C:\map\TishkinProject\Game\Game\bin\Debug\Game.exe
+C:\map\TishkinProject\Game\Game\bin\Debug\Game.pdb
+C:\map\TishkinProject\Game\Game\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
+C:\map\TishkinProject\Game\Game\obj\Debug\Game.exe
+C:\map\TishkinProject\Game\Game\obj\Debug\Game.pdb
