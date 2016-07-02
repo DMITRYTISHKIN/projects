@@ -126,9 +126,6 @@
   <metadata name="saveDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>273, 17</value>
   </metadata>
-  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -138,8 +135,8 @@
         RF/WBZnFQBrgSi4oKgHSf4DYKCW1OJmBgdEAyM4uLykAijPOAbJFkrLB7A0gdlFIkDOQfQTI5kuHsK+A
         2EkQ9hMQuwjoCSD7C0h9OpjNxAE2B8KWAbFLUitA9jI45xdUFmWmZ5QoGFpaWio4puQnpSoEVxaXpOYW
         K3jmJecXFeQXJZakpgDVQtwHBoIQhaAQ0wBqtNBkoDIAxQOE9TkQHL6MYmcQYgiQXFpUBmUyMhkT5iPM
-        mCPBwOC/lIGB5Q9CzKSXgWGBDgMD/1SEmJohA4OAPgPDvjkAwMZP/eeaqagAAAAJcEhZcwAACxAAAAsQ
-        Aa0jvXUAAP5PSURBVHhe7N0HnFNlvv9xZ1JmUiYzQ+9NkCqggCCggCBV6YIIKiAooigWLNiwV9Ze177l
+        mCPBwOC/lIGB5Q9CzKSXgWGBDgMD/1SEmJohA4OAPgPDvjkAwMZP/eeaqagAAAAJcEhZcwAACw8AAAsP
+        AZL5A6UAAP5PSURBVHhe7N0HnFNlvv9xZ1JmUiYzQ+9NkCqggCCggCBV6YIIKiAooigWLNiwV9Ze177l
         7rqr6xYVETv2slYsa1233W33/q9tdV1+/+d3kjNkwpMyM5mZk8zn93q9J8mTk3pKTr555jm7iAgAAAAA
         AAAAoABZGwEAAAAAAAAA3mdtBAAAAAAAAAB4n7URAAAAAAAAAOB91kYAAAAAAAAAgPdZGwEAAAAAAAAA
         3mdtBAAAAAAAAAB4n7URAAAAAAAAAOB91kYAAAAAAAAAgPdZGwEAAAAAAAAA3mdtBAAAAAAAAAB4n7UR

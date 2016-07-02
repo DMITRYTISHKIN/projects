@@ -38,3 +38,13 @@ C:\Users\Дмитрий\Desktop\Транспер\TransperDevelop\WindowsFormsApp
 C:\Users\Дмитрий\Desktop\Транспер\TransperDevelop\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
 C:\Users\Дмитрий\Desktop\Транспер\TransperDevelop\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
 C:\Users\Дмитрий\Desktop\Транспер\TransperDevelop\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form2.resources
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Дмитрий\Documents\GitHub\GitProjects\projects\TransperWin\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
