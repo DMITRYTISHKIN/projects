@@ -1,0 +1,57 @@
+﻿@model MVC.DbSets.Book
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+        <h4>DataItem</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.ID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Name, new { @class = "text-danger" })
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Price, new { @class = "text-danger" })
+
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Author, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Author, new { @class = "text-danger" })
+
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Genre, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Genre, new { @class = "text-danger" })
+
+
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(model => model.Publisher, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.DisplayFor(model => model.Publisher, new { @class = "text-danger" })
+
+
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Удалить" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+<div style="padding: 5px">
+    <a href='@Url.Action("/List")'><img id="del" src="~/Image/Back.png" width="20px" alt="Вернуться назад" /></a>
+</div>

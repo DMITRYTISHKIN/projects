@@ -1,0 +1,47 @@
+﻿
+
+@{
+    ViewBag.Title = "Data";
+}
+<style>
+    #button {
+        transition: 0.2s linear;
+        opacity: 0.75;
+    }
+        #button:hover {
+            opacity: 0.5;
+        }
+    #row:hover{
+        background-color: rgb(250,250,255);
+    }
+</style>
+<h2>Данные</h2>
+
+<table class="table-bordered">
+    <tr style="background-color: rgb(208, 230, 182);">
+        <th>@Html.ActionLink("Название", "List", new { id = "name" })</th>
+        <th>@Html.ActionLink("Стоимость, руб. без НДС", "List", new { id = "price" })</th>
+        <th>@Html.ActionLink("Автор", "List", new { id = "author" })</th>
+        <th>@Html.ActionLink("Жанр", "List", new { id = "genre"})</th>
+        <th>@Html.ActionLink("Издательство", "List", new { id = "publisher" })</th>
+        <th>&nbsp;</th><th>&nbsp;</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        
+        <tr id="row">
+            <td>@item.Name</td>
+            <td>@item.Price</td>
+            <td>@item.Author</td>
+            <td>@item.Genre</td>
+            <td>@item.Publisher</td>
+            <td><a href='@Url.Action("Change", new { id = item.ID })'><img id="button" src="~/Image/Edit.png" width="25px" alt="Редактирование книги" /></a></td>
+            <td><a href='@Url.Action("Delete", new { id = item.ID })'><img id="button" src="~/Image/Delete.png" width="25px" alt="Удаление книги" /></a></td>
+        </tr>
+    }
+
+</table>
+<div style="padding: 5px">
+    <a href='@Url.Action("Create")'><img id="button" src="~/Image/Add.png" width="20px" alt="Добавление книги" /></a>
+</div>
