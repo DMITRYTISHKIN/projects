@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Project1", "Win32Project1\Win32Project1.vcxproj", "{6C5BE331-0C3A-47EB-9AF4-044A65AAC602}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "serverpipe", "serverpipe\serverpipe.vcxproj", "{D3CC0CAB-E2BF-49C7-B03F-F60B31C5DDA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C5BE331-0C3A-47EB-9AF4-044A65AAC602}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6C5BE331-0C3A-47EB-9AF4-044A65AAC602}.Debug|Win32.Build.0 = Debug|Win32
+		{6C5BE331-0C3A-47EB-9AF4-044A65AAC602}.Release|Win32.ActiveCfg = Release|Win32
+		{6C5BE331-0C3A-47EB-9AF4-044A65AAC602}.Release|Win32.Build.0 = Release|Win32
+		{D3CC0CAB-E2BF-49C7-B03F-F60B31C5DDA9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3CC0CAB-E2BF-49C7-B03F-F60B31C5DDA9}.Debug|Win32.Build.0 = Debug|Win32
+		{D3CC0CAB-E2BF-49C7-B03F-F60B31C5DDA9}.Release|Win32.ActiveCfg = Release|Win32
+		{D3CC0CAB-E2BF-49C7-B03F-F60B31C5DDA9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
