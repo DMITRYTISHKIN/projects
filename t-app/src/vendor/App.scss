@@ -1,0 +1,119 @@
+$FontPathOpenSans: "./vendor/fonts";
+$backAmethyst: #eedff5;
+$amethyst: #9B59B6;
+
+@import '../../node_modules/npm-font-open-sans/open-sans.scss';
+@import 'bootstrap';
+@import 'header';
+@import 'modal';
+@import 'dashboard';
+@import 'record';
+
+body, html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  //font-family: Open Sans;
+  background-color: #eedff5;
+  outline: none !important;
+}
+
+
+.customPacmanMarker {
+  width: 0px;
+  height: 0px;
+  border-right: 15px solid transparent;
+  border-top: 15px solid yellow;
+  border-left: 15px solid yellow;
+  border-bottom: 15px solid yellow;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.ggg{
+  width: 0px;
+}
+.App {
+  height: 100%;
+}
+a{
+  color: $amethyst;
+}
+a:hover{
+  color: $amethyst;
+}
+a:focus, a:active{
+  outline: none;
+}
+
+.rbc-event{
+  background-color: $amethyst;
+}
+.rbc-event.rbc-selected{
+  background-color: darken($amethyst, 15%);
+}
+.rbc-day-slot .rbc-event-label{
+  margin: 0 auto;
+  font-weight: bold;
+}
+.rbc-event-content{
+  padding: 3px;
+}
+.rbc-day-slot .rbc-event{
+  width: calc(100% - 5px) !important;
+  margin: 0 2px 0 3px;
+  border-radius: 3px;
+  border: 0px;
+}
+.rbc-time-content{
+  border: none;
+}
+.rbc-time-view{
+  border: none;
+}
+.rbc-time-content > * + * > * {
+    border-left: 1px solid #CECECE;
+}
+.rbc-timeslot-group{
+    border-bottom: 1px solid #CECECE;
+}
+
+.rbc-day-slot .rbc-time-slot {
+    border-top: 1px solid #efefef;
+}
+.rbc-day-slot .rbc-time-slot:first-child {
+    border-top: none;
+}
+.rbc-today {
+    background-color: #fff3a1;
+}
+
+.rbc-header:last-child{
+  border-right: 1px solid #CECECE;
+}
+.rbc-header{
+  font-weight: normal;
+  border-top: 1px solid #CECECE;
+  padding: 2px;
+}
+.rbc-header.rbc-today{
+  background-color: transparent;
+}
+.rbc-today .rbc-time-slot{
+  border-top: 1px solid #ece192;
+}
+.rbc-time-header > .rbc-row:first-child {
+    border-bottom: 1px solid #CECECE;
+}
+.rbc-time-content > .rbc-day-slot:last-child .rbc-timeslot-group{
+  border-right: 1px solid #CECECE;
+
+}
+.rbc-time-view .rbc-row:nth-child(2n){
+  display: none;
+
+}
+.rbc-time-column .rbc-timeslot-group{
+  //align-items: center;
+}

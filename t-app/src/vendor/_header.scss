@@ -1,0 +1,35 @@
+
+.Logo{
+  position: absolute;
+  left: calc(50% - 30px);
+  z-index: 100;
+
+}
+.Logo img{
+  margin: 0;
+  height: 60px;
+  margin: 3px 0;
+  margin-left: 0 !important;
+  z-index: 100;
+}
+
+.btn-signIn{
+  background-color: $amethyst;
+  color: white;
+  font-weight: bold;
+  border: 1px darken($amethyst, 10%) solid;
+  &.btn-signIn:hover,
+  &.btn-signIn:active{
+    background-color: darken($amethyst, 3%);
+    color: white;
+    border: 1px darken($amethyst, 12%) solid;
+    outline: none;
+  }
+}
+.authTabs .navbar-nav{
+  float: none;
+  margin-bottom: 15px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
